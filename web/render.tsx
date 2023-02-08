@@ -1,6 +1,6 @@
-import { renderToString } from "../deps.ts";
+/** @jsx h */
+import { h, renderToString } from "../deps.ts";
 import { FailPage, HomePage, SuccessPage } from "./App.tsx";
-import { React } from "../deps.ts";
 import { AboutPage } from "./About.tsx";
 
 export async function render(req: Request, params?: Record<string, unknown>) {
