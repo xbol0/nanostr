@@ -31,3 +31,9 @@ Then start your service:
 ```
 deno task start
 ```
+
+## Follow me🤣
+
+```
+npub134w9tcvtufsm7xavssllw44mu32wcdu9fygphft4tc6xjpsav3zq8yagqx
+```
