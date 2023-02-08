@@ -85,7 +85,7 @@ export function Header() {
       <nav>
         <a href="/">Home</a>
         <a href="/about">About</a>
-        <a href="https://github.com/" target="_blank">Github</a>
+        <a href="https://github.com/xbol0/nanostr" target="_blank">Github</a>
       </nav>
     </header>
   );
