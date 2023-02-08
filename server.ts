@@ -15,7 +15,7 @@ export function start() {
   http.serve(async (req) => {
     const url = new URL(req.url);
     const route = `${req.method} ${url.pathname}`;
-    console.log(route);
+    console.log(req.url);
 
     const fn = Router.get(route);
     if (!fn) return render(req);
